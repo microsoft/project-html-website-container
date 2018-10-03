@@ -6,8 +6,8 @@
             margin: 0;
         }
         @font-face{
-            font-family: "Segoe UI";
-            src: url('../fonts/segoeuil.ttf');
+            font-family: 'Segoe UI';
+            src: url('/fonts/segoeuil.ttf') format('ttf');
         }
         .main-container {
             height: 100%;
@@ -18,7 +18,7 @@
             box-sizing: border-box;
             overflow-y: auto;
             overflow-x: hidden;
-            font-family: "Segoe UI";
+            font-family: "Segoe UI", sans-serif;
         }
 
         .cloud-image {
