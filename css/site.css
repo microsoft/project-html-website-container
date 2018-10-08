@@ -10,26 +10,26 @@
             src: url('../fonts/segoeuil.ttf');
         }
         .main-container {
-            height: 100%;
-            width: 100%;
+            height: 100vh;
+            width: 100vw;
             background-color: #1d539d;
+            /* background-color: black; */
             color: white;
-            padding-top: 6%;
+            padding:4%;
             box-sizing: border-box;
             overflow-y: auto;
-            overflow-x: hidden;
+            overflow-x:auto;
             font-family: "Segoe UI";
+            
         }
 
         .cloud-image {
-            width: 1200px;
             height: 250px;
-            padding-bottom: 50px;
-            margin: auto;
+            margin:4%;
         }
 
         .success-text {
-            padding-bottom: 20px;
+            margin:4% 0;
             font-size: 62px;
             line-height: 73px;
         }
@@ -38,15 +38,10 @@
             font-size: 34px;
             line-height: 40px;
         }
-
-        .next-steps-container {
-            padding-top: 50px;
-        }
-
         .next-steps-header {
             font-size: 24px;
             line-height: 28px;
-            padding-bottom: 25px;
+            margin:2% 0;
         }
 
         .next-steps-body {
@@ -56,7 +51,7 @@
 
         .step {
             display: flex;
-            margin: 7px 0px;
+            margin:2% 0%;
             font-size: 15px;
             line-height: 21px;
         }
@@ -79,7 +74,6 @@
 
         .content {
             box-sizing: border-box;
-            min-width: 700px;
             max-width: 830px;
             position: relative;
             margin: auto;
@@ -95,25 +89,22 @@
         }
         .content-body{
             min-width: 400px;
+            padding: 0;
         }
 
         @media (max-width: 1024px) {
             .main-container{
-                padding-top: 1%;
+                padding: 2%;
             }
             .cloud-image {
-                padding-bottom: 30px;
-            }
-            .next-steps-container {
-                padding-top: 30px;
+                margin: 2%;
             }
             .next-steps-header {
-                padding-bottom: 20px;
+                margin: 2%;
             }
             .success-text {
                 font-size: 50px;
                 line-height: 61px;
-                padding-bottom: 10px;
             }
             .description {
                 font-size: 26px;
@@ -132,3 +123,31 @@
                 min-width: 630px;
             }
         }
+        
+        @media (max-width: 830px){
+            .content{
+                max-width: 540px;
+                min-width: 300px;
+            }
+            .content-body{
+                max-width: 540px;
+                margin: auto;
+            }
+            .tweet-container {
+            left: -100px;
+            top: 60px;
+            }
+            .description {
+                font-size: 20px;
+                line-height: 22px;
+            }
+            .success-text {
+                font-size: 42px;
+                line-height: 51px;
+            }
+            .step {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+       
