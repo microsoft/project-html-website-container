@@ -20,6 +20,13 @@
             overflow-x: hidden;
             font-family: "Segoe UI";
         }
+        
+        .wrapper {
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 100%;
+            height: 100%;
+        }
 
         .cloud-image {
             width: 1200px;
