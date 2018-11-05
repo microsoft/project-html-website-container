@@ -1,3 +1,5 @@
+# This repo is no longer used. Please raise it in https://github.com/microsoft/devops-project-samples
+
 | Language | Platform | Author |
 | -------- | --------|--------|
 | HTML |  Azure Web App, Virtual Machine| |
